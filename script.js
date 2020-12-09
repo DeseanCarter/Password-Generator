@@ -98,6 +98,7 @@ function chooseCaseAndSpecialChar() {
         return;
     }
     
+
     uppercaseCheck = confirm("Will your password include uppercase letters?");
     lowercaseCheck = confirm("Will your password include lowercase letters?");
     specialCheck = confirm("Will your password include special characters?");
