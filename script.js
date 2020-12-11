@@ -86,7 +86,7 @@ for (let i = 0; i < options.length; i++) {
 }
 
 function chooseCaseAndSpecialChar() {
-    var passwordLength = prompt("How many characters do you want your password to be? Must be between 8 - 128! Only use numbers!");
+    var passwordLength = prompt("How many characters do you want your password to be? Must be between 8 - 128!");
 
     if (passwordLength<8) {
         alert("Password must be MORE than 8 characters!");
